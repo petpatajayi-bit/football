@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: true-salvation-military
+    runtime: docker
+    plan: free
+    healthCheckPath: /
